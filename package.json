@@ -1,0 +1,25 @@
+{
+  "name": "mark-proxy",
+  "version": "1.0.0",
+  "description": "Proxy server for FEC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theofficetroll/mark-proxy.git"
+  },
+  "author": "Mark Scrudder",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theofficetroll/mark-proxy/issues"
+  },
+  "homepage": "https://github.com/theofficetroll/mark-proxy#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
