@@ -2,9 +2,10 @@ const { TestScheduler } = require('jest');
 const puppeteer = require('puppeteer');
 const pageUrl = 'http://localhost:3101/';
 
-let page, browser;
 const width = 1200;
 const height = 700;
+
+let page, browser;
 
 beforeAll(async () => {
   browser = await puppeteer.launch({
@@ -20,7 +21,6 @@ afterAll(() => {
   browser.close();
 });
 
-// Tests will go below once there's something to test
 describe('Tiers service functions', () => {
 
   beforeEach(async () => {
@@ -37,4 +37,6 @@ describe('Tiers service functions', () => {
       console.log('error: ', err);
     })
   });
+
+  // Add another test
 });
