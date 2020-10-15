@@ -1,15 +1,19 @@
 # mark-proxy
+To Start Servers:
+Proxy : npm run server-dev
+freddie-individual-item-details : npm run server
+kimarie-bonuses : npm run start
+Tier-Mark : npm run server-dev
 
 # Services working
-Tier-Mark (sub-service Items incomplete)
+Tier-Mark : renders
 kimarie-bonuses : basic 'Hello world', renders ok
-
+freddie-individual-item-details : renders
 
 # Services not working
-freddie-individual-item-details : unable to get to run locally, no README
+max-descriptions : unable to get to run locally, looks like database initialization issues?
 
 kimarie-reviews : some framework, but appears incomplete
-max-descriptions : Max has stated is rebuilding
 Navbar-Mark : I have not yet completed this module
 
 
