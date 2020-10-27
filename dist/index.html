@@ -1,20 +1,57 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+  <link rel ="stylesheet" href="index.css">
   <body>
     <div id="app">
-      Humble Bundle
-      <div id="descriptions">
-        Opening Description
+      <div class="navbar">
+        <div class="navbar-button">
+          HumbleLogo
+        </div>
+        <div class="navbar-button">
+          100 Bundles
+          <i class="caret-down">
+            &#9660;
+          </i>
+        </div>
+        <div class="navbar-button">
+          Choice
+        </div>
+        <div class="navbar-button">
+          Store
+        </div>
+        <div class="navbar-button">
+          About
+          <i class="caret-down">
+            &#9660;
+          </i>
+        </div>
+        <div class="navbar-button searchbar">
+          <div id="site-search" class="search">
+            <input aria-label="Search" class="search-input" placeholder="Search">
+            <button class="search-button search-input mag-glass" aria-label="Clear search">
+              &#9906;
+            </button>
+          </div>
+        </div>
+        <div class="navbar-button login-button">
+          Log In
+        </div>
+        <div class="navbar-button signup-button">
+          Sign Up
+        </div>
       </div>
+      <!-- <div id="descriptions">
+        Opening Description
+      </div> -->
       <div id="Tiers">
         Tier Not Loading
       </div>
-      <div id="bonuses">
+      <!-- <div id="bonuses">
         Bonus Not Loading
       </div>
       <div id="individual-items">
         Individual Item Not Loading
-      </div>
+      </div> -->
     </div>
     <script src="http://3.15.215.14:3101/static/js/bundle.js"></script>
     <!-- <script src="http://localhost:3031/bundle.js"></script> -->
