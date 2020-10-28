@@ -3,7 +3,7 @@ To Start Servers:
 Proxy : npm run server-dev
 freddie-individual-item-details : npm run server
 kimarie-bonuses : npm run start
-max-descriptions : npm run server-dev
+max-descriptions : npm run start
 Tier-Mark : npm run server-dev
 
 # Services working
@@ -12,8 +12,6 @@ kimarie-bonuses : renders with errors
 freddie-individual-item-details : renders, does not change
 
 # Services not working
-max-descriptions : getting DOM errors
-
 kimarie-reviews : some framework, but appears incomplete
 Navbar-Mark : I have not yet completed this module
 
