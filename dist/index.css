@@ -17,7 +17,7 @@ html body {
   height: 66px;
   line-height: 65px;
   margin: 0;
-  max-width: 1500px;
+  /* max-width: 1500px; */
   padding: 0 10px;
   pointer-events: none;
   position: relative;
