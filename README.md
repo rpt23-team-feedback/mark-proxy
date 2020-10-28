@@ -3,15 +3,16 @@ To Start Servers:
 Proxy : npm run server-dev
 freddie-individual-item-details : npm run server
 kimarie-bonuses : npm run start
+max-descriptions : npm run server-dev
 Tier-Mark : npm run server-dev
 
 # Services working
-Tier-Mark : renders
-kimarie-bonuses : basic 'Hello world', renders ok
-freddie-individual-item-details : renders
+Tier-Mark : renders, updates with url change
+kimarie-bonuses : renders with errors
+freddie-individual-item-details : renders, does not change
 
 # Services not working
-max-descriptions : unable to get to run locally, looks like database initialization issues?
+max-descriptions : getting DOM errors
 
 kimarie-reviews : some framework, but appears incomplete
 Navbar-Mark : I have not yet completed this module
